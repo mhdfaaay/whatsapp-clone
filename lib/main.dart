@@ -62,7 +62,7 @@ class HomePage extends StatelessWidget {
             ]) ,
         ),
         
-        body:TabBarView(
+        body:const TabBarView(
           children: [
           Chatspage(),
           StatusPage(),
